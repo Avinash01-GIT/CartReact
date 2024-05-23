@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.porducts {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+  border: 5px solid rgb(83, 83, 83);
+}
+
+.products-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topgif {
+  width: 150px;
+}
+
+.topgif img {
+  width: 100%;
+}
+
+.productsList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  height: 100%;
+  align-items: center;
+}
+
+.productDiv {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FF474C;
+  flex-direction: row;
+  width: 700px;
+  color: black;
+  border-radius: 14px;
+  align-items: center;
+  height: 70px;
+  padding: 20px;
+}
+
+.product-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.product-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.countOfProduct {
+  display: flex;
+  flex-direction: row;
+  background-color: #FF8589;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  background-color: #FF8589;
+  width: 30px;
+  cursor: pointer;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border: 5px solid rgb(83, 83, 83);
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 450px;
+  height: 60px;
+  align-items: center;
+  padding: 20px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.cartName,
+.cartPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 450px;
+  height: 50px;
+  align-items: center;
+  padding: 20px;
+}
